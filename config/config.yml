@@ -1,11 +1,11 @@
 ---
 title:               kerr.io
 tagline:             pressing keyes on a computer
-login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "joshkerr" %>
-password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "rrek1209" %>
+login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "" %>
+password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "" %>
 name:                josh kerr
 twitter:             joshkerr
 github:              joshkerr
 email:               joshkerr@gmail.com
-google_analytics_id: YOUR_GA_ID
+google_analytics_id: UA-33715216-1
 disqus_shortname:    <%= ENV.fetch("disqus_shortname") { "joshkerr" } %>
