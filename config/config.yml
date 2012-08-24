@@ -1,5 +1,5 @@
 ---
-title:               <%= ENV["obtvse_title"] ? ENV["obtvse_title"] : "josh kerr" %>
+title:               <%= ENV["obtvse_title"] ? ENV["obtvse_title"] : "kerr.io" %>
 tagline:             <%= ENV["obtvse_tagline"] ? ENV["obtvse_tagline"] : "pressing keys on a computer" %>
 login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
 password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>
@@ -8,3 +8,4 @@ twitter:             <%= ENV["obtvse_twitter"] ? ENV["obtvse_twitter"] : "joshke
 github:              <%= ENV["obtvse_github"] ? ENV["obtvse_github"] : "joshkerr" %>
 email:               <%= ENV["obtvse_email"] ? ENV["obtvse_email"] : "joshkerr@gmail.com" %>
 google_analytics_id: <%= ENV["obtvse_ga_id"] ? ENV["obtvse_ga_id"] : "UA-33715216-1" %>
+disqus_shortname:    <%= ENV.fetch("disqus_shortname") { "joshkerr" } %>
