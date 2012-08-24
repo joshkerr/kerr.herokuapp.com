@@ -228,13 +228,8 @@ code {
   color: #fff;
 }
 
-.button {
-  &.space-top {
-    margin-top: 50px;
-  }
-  &.space-bottom {
-    margin-bottom: 50px;
-  }
+.button.space-top {
+  margin-top: 100px;
 }
 
 .left {
@@ -574,3 +569,9 @@ nav.pagination {
   nav.pagination a {
     margin-left: 10px;
   }
+
+#inline-image-upload {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}

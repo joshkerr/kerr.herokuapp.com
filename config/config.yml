@@ -1,11 +1,10 @@
 ---
-title:               kerr.io
-tagline:             pressing keyes on a computer
-login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "" %>
-password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "" %>
-name:                josh kerr
-twitter:             joshkerr
-github:              joshkerr
-email:               joshkerr@gmail.com
-google_analytics_id: UA-33715216-1
-disqus_shortname:    <%= ENV.fetch("disqus_shortname") { "joshkerr" } %>
+title:               <%= ENV["obtvse_title"] ? ENV["obtvse_title"] : "josh kerr" %>
+tagline:             <%= ENV["obtvse_tagline"] ? ENV["obtvse_tagline"] : "pressing keys on a computer" %>
+login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
+password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>
+name:                <%= ENV["obtvse_name"] ? ENV["obtvse_name"] : "Josh Kerr" %>
+twitter:             <%= ENV["obtvse_twitter"] ? ENV["obtvse_twitter"] : "joshkerr" %>
+github:              <%= ENV["obtvse_github"] ? ENV["obtvse_github"] : "joshkerr" %>
+email:               <%= ENV["obtvse_email"] ? ENV["obtvse_email"] : "joshkerr@gmail.com" %>
+google_analytics_id: <%= ENV["obtvse_ga_id"] ? ENV["obtvse_ga_id"] : "UA-33715216-1" %>
