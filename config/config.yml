@@ -1,11 +1,11 @@
 ---
-title:               Obtvse Demo
-tagline:             Clever tagline.
-login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
-password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>
-name:                Your name
-twitter:             your_twitter_handle
-github:              your_github_handle
-email:               address@example.com
+title:               kerr.io
+tagline:             pressing keyes on a computer
+login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "joshkerr" %>
+password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "rrek1209" %>
+name:                josh kerr
+twitter:             joshkerr
+github:              joshkerr
+email:               joshkerr@gmail.com
 google_analytics_id: YOUR_GA_ID
-disqus_shortname:    <%= ENV.fetch("disqus_shortname") { "" } %>
+disqus_shortname:    <%= ENV.fetch("disqus_shortname") { "joshkerr" } %>
